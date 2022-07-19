@@ -1,0 +1,200 @@
+.cour-main{
+    background-color: #010101;
+    height: 1272px;
+    width: 1440px;
+    color: #fff;
+}
+.cour-a-right{
+    background-color: #1a1a1a;
+    height: 1272px;
+    width: 1192px;
+    padding-top: 41px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.excer-logo{
+    width: 9rem;
+    height: 2.8rem;
+}
+.excer-logo-1{
+    width: 2rem;
+    height: 2.5rem;
+}
+.excer-logo-2{
+    width: 6.5rem;
+    height: 2.5rem;
+}
+.excer-btn-back{
+    display: none;
+}
+.b-r-10{
+    border-radius: 10px;
+}
+.excer-menu-logo{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.close-cross{
+    display: none;
+}
+.menu-lines{
+    background-color: #1a1a1a;
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 990px){
+    .cour-a-right{
+        height: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .cour-a-left{
+        display: none;
+    }
+    .menu-lines{
+       display: inherit;
+    }
+    .input-text{
+        height: 20px;
+        padding: 5px;
+    }
+}
+.input-text{
+    height: 46px;
+    border-radius: 10px;    
+    padding: 10px;
+    background: #333333;
+    border: 1px solid #333333;
+}
+.rec-search{
+    font-family:  FontAwesome, sans-serif;
+}
+.user-icon{
+    width: 36px;
+    height: 36px;
+}
+.f-s-18{
+    font-size: 18px;
+}
+.f-s-16{
+    font-size: 16px;
+}
+.f-s-12{
+    font-size: 12px;
+}
+.float-right{
+    float: right;
+}
+.pro-hr1{
+    width: 98vwx;
+    height: 2px;
+    margin-top: 0px;
+}
+.pro-hr2, .pro-hr3{
+    background: linear-gradient(94.43deg, #00E6F9 17.76%, #0068FF 83.71%);
+    width: 100%;
+    height: 4px;
+}
+.pro-hr3{
+    display: none;
+}
+.cour-watch{
+    margin-top: 42px;
+    width: 363px;
+    height: 239px;
+    background-image: url("../images/pexels-jay.png");
+    background-repeat: no-repeat;
+}
+.cour-watch-bg{
+    background: linear-gradient(96.52deg, rgba(0, 230, 249, 0.5) 7.68%, rgba(0, 104, 255, 0.5) 38.83%, rgba(254, 69, 194, 0.5) 101.43%);
+    width: 363px;
+    height: 239px;
+    padding-left: 21px;
+    padding-right: 78px;
+    padding-top: 36px;
+}
+.cour-upc-bg{
+    background: linear-gradient(96.52deg, rgba(163, 107, 0, 0.7) 7.68%, rgba(162, 58, 2, 0.7) 38.83%, rgba(162, 1, 110, 0.7) 101.43%);
+    width: 363px;
+    height: 239px;
+    padding-left: 21px;
+    padding-right: 78px;
+    padding-top: 36px;
+}
+.cour-conti{
+    width: 129px;
+    height: 45px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.cour-down{
+    margin-top: 30px;
+}
+.cour-down-left, .cour-down-right{
+    width: 363px;
+    height: 172px;
+    padding-left: 23px;
+    padding-top: 34px;
+    padding-right: 44px;
+}
+.cour-down-l2, .cour-down-r2{
+    width: 363px;
+    margin-top: 20px;
+}
+.cour-down-left{
+    background-image: url("../images/pexels-jay.png");
+}
+.cour-down-right{
+    background-image: url("../images/pexels-ana.png");
+}
+.cour-rec-fu{
+    padding-top:45px;
+    font-size: 20px;
+}
+.date-month{
+    font-size: 10px;
+}
+.date-day{
+    margin-top: -15px;
+}
+.cour-date{
+    width: 48.13px;
+    height: 43px;
+    display: inline-block;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+.lock-anim{
+    width: 40px;
+    height: 40px;
+    padding-left: 8px;
+    padding-top: 3px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    float: right;
+}
+.act-com{
+    width: 118px;
+    font-weight: 600;
+    height: 35px;
+    padding-left: 10px;
+    background-color: #fff;
+}
+.act-frame{
+    margin-top: -35px;
+}
+.pro-complete{
+    margin-left: 28px;
+    margin-top: -20px;
+}
+.my-courses-div{
+    display: none;
+}
+.available-courses-div{
+    margin-top: 40px;
+}

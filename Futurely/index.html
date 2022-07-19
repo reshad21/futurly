@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>My-Courses, Courses Available</title>
+</head>
+<body>
+	<div class="container-xxl p-0">
+		<div class="row gx-0">
+			<div class="fut-left-col col-lg-2 col-md-3 d-none d-md-block">
+				<div class="fut-logo-wrapper text-center mb-5 p-1 pt-4 text-center">
+					<img src="images/logo1.svg" alt="Logo">
+					<img src="images/logo2.svg" alt="Logo">
+				</div>
+				<div class="fut-left-col-item">
+					<ul class="list-unstyled">
+						<li class="pe-xxl-5 pe-xl-3 pe-md-2 pe-0 pb-2">
+							<a href="#" class="d-flex align-items-center text-decoration-none py-2 ps-md-3 ">
+								<span class="icon d-flex justify-content-center align-items-center"><i class="fas fa-home"></i></span>
+								<span class="text">Home</span>
+							</a>
+						</li>
+						<li class="pe-xxl-5 pe-xl-3 pe-md-2 pe-0 pb-2">
+							<a href="#" class="active d-flex align-items-center text-decoration-none py-2 ps-md-3">
+								<span class="icon d-flex justify-content-center align-items-center"><i class="far fa-file-alt"></i></span>
+								<span class="text">Courses</span>
+							</a>
+						</li>
+						<li class="pe-xxl-5 pe-xl-3 pe-md-2 pe-0 pb-2">
+							<a href="#" class="d-flex align-items-center text-decoration-none py-2 ps-md-3">
+								<span class="icon d-flex justify-content-center align-items-center"><i class="far fa-user"></i></span>
+								<span class="text">Mentors</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="fut-right-col col p-4">
+				<!-- Top Bar Navigation -->
+				<nav class="d-flex justify-content-between align-items-center">
+					<div class="d-flex">
+						<a class="toggle-bar d-md-none me-3" href="#">
+							<i class="fas fa-bars"></i>
+						</a>
+						<h1 class="h3">Courses</h1>
+					</div>
+					<div class="d-flex align-items-center">
+						<form action="#" class="pe-2">
+							<div class="fut-search-box d-flex align-items-center py-2 px-3">
+								<i class="fas fa-search"></i>
+								<input class="d-none d-lg-block ps-2" type="text" placeholder="What do you want to learn today?">
+							</div>
+						</form>
+
+						<ul class="fut-nav-icons list-unstyled d-flex m-0">
+							<li class="px-3">
+								<a href="#" class="position-relative">
+									<i class="fas fa-shopping-cart"></i>
+								</a>
+							</li>
+							<li class="px-2">
+								<a href="#" class="position-relative">
+									<i class="far fa-heart"></i>
+								</a>
+							</li>
+							<li class="px-3">
+								<a href="#" class="position-relative">
+									<i class="far fa-bell"></i>
+								</a>
+							</li>
+						</ul>
+						<div class="fut-user-profile d-flex align-items-center ps-1 ps-md-3">
+							<img src="images/user-icon.png" alt="Profile Icon" width="40" height="40">
+							<p class="m-0 px-3 d-none d-md-block">Kosisochukwu Ononye</p>
+						</div>
+					</div>
+				</nav>
+				<!-- Main Content Area -->
+				<!-- ====================
+				====================== -->
+				<main class="pt-4">
+					<ul class="nav nav-courses mb-4 pb-2 position-relative" id="courses-tab">
+						<li class="nav-item me-3">
+							<button class="nav-link text-white position-relative" id="available-courses-tab" data-bs-toggle="pill" data-bs-target="#available-courses" type="button" aria-controls="available-courses" aria-selected="true">Available courses</button>
+						</li>
+						<li class="nav-item">
+							<button class="nav-link active text-white position-relative" id="my-courses-tab" data-bs-toggle="pill" data-bs-target="#my-courses" type="button" aria-controls="my-courses" aria-selected="false">My courses</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="courses-tabContent">
+						<div class="tab-pane fade" id="available-courses" aria-labelledby="available-courses-tab">
+							<!-- Available Courses -->
+							<div class="d-flex flex-wrap mb-5">
+								<!-- Available Course 1 -->
+								<div class="fut-card fut-card-1 rounded-3 p-4 me-sm-3 mb-3">
+									<p class="pb-1">Continue watching</p>
+									<div class="pb-4">
+										<h3 class="h4">Principle of product design: Usability testing skills</h3>
+									</div>
+									<div class="pb-3">
+										<a href="#" class="fut-primary-card-button text-decoration-none text-white px-3 py-2"><i class="fa fa-play me-3" aria-hidden="true"></i>Continue</a>
+									</div>
+									<p class="text-end m-0">6/20 steps completed</p>
+								</div>
+							</div>
+							<!-- Courses recommended for you -->
+							<div class="mb-5">
+								<h2 class="h5 mb-2 pb-2">Courses recommended for you</h2>
+								<div class="d-flex flex-wrap align-items-stretch">
+									<!-- Recommended Item 1 -->
+									<div class="fut-card-v2 me-sm-3 mb-3">
+										<div class="fut-card-v2-head position-relative rounded-3 p-4">
+											<p class="text-white">Start dates</p>
+											<div class="d-flex w-75">
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">05</span>
+												</div>
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">04</span>
+												</div>
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">07</span>
+												</div>
+											</div>
+											<!-- Wish Icon -->
+											<div class="fut-wish position-absolute"><a href="#" class="text-white text-decoration-none"><i class="far fa-heart"></i></a></div>
+										</div>
+										<div class="fut-card-v2-body pt-3 pe-4">
+											<h3 class="h4">Principle of product design: Usability testing skills</h3>
+											<p>In this course, you will learn about the principles of product design</p>
+											<div class="d-flex justify-content-between text-white">
+												<div>
+													<span class="d-block fw-lighter fs-6">Duration</span>
+													<span class="d-block">1 month</span>
+												</div>
+												<div class="pt-3">
+													<span class="fw-bold fs-5">99<sup class="fs-6 fw-normal">.99</sup></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Completed Item 2 -->
+									<div class="fut-card-v2 me-sm-3 mb-3">
+										<div class="fut-card-v2-head position-relative rounded-3 p-4">
+											<p class="text-white">Start dates</p>
+											<div class="d-flex w-75">
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">05</span>
+												</div>
+											</div>
+											<!-- Wish Icon -->
+											<div class="fut-wish position-absolute"><a href="#" class="text-white text-decoration-none"><i class="far fa-heart"></i></a></div>
+										</div>
+										<div class="fut-card-v2-body pt-3 pe-4">
+											<h3 class="h4">Principle of product design: Usability testing skills</h3>
+											<p>In this course, you will learn about the principles of product design</p>
+											<div class="d-flex justify-content-between text-white">
+												<div>
+													<span class="d-block fw-lighter fs-6">Duration</span>
+													<span class="d-block">1 month</span>
+												</div>
+												<div class="pt-3">
+													<span class="fw-bold fs-5">99<sup class="fs-6 fw-normal">.99</sup></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show active" id="my-courses" aria-labelledby="my-courses-tab">
+							<!-- Active Item -->
+							<div class="mb-5">
+								<h2 class="h5 mb-2 pb-2">Active</h2>
+								<div class="d-flex flex-wrap">
+									<!-- Active Item 1 -->
+									<div class="fut-card fut-card-1 rounded-3 p-4 me-sm-3 mb-3">
+										<p class="pb-1">Continue watching</p>
+										<div class="pb-4">
+											<h3 class="h4">Principle of product design: Usability testing skills</h3>
+										</div>
+										<div class="pb-3">
+											<a href="#" class="fut-primary-card-button text-decoration-none text-white px-3 py-2"><i class="fa fa-play me-3" aria-hidden="true"></i>Continue</a>
+										</div>
+										<p class="text-end m-0">6/20 steps completed</p>
+									</div>
+									<!-- Active Item 2 -->
+									<div class="fut-card fut-card-2 rounded-3 p-4 me-sm-3 mb-3">
+										<p class="pb-1">Upcoming</p>
+										<div class="pb-4">
+											<h3 class="h4">Principle of product design: Usability testing skills</h3>
+										</div>
+										<div class="pb-3">
+											<a href="#" class="fut-primary-card-button mb-3 text-decoration-none text-white px-3 py-2"><i class="fa fa-play me-3" aria-hidden="true"></i>Get started</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Completed Item -->
+							<div class="mb-5">
+								<h2 class="h5 mb-2 pb-2">Completed</h2>
+								<div class="d-flex flex-wrap align-items-stretch">
+									<!-- Completed Item 1 -->
+									<div class="fut-card-v2 me-sm-3 mb-3">
+										<div class="fut-card-v2-head position-relative rounded-3 p-4">
+											<p class="text-white">Start dates</p>
+											<div class="d-flex w-75">
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">05</span>
+												</div>
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">04</span>
+												</div>
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">07</span>
+												</div>
+											</div>
+											<!-- Complete Mark -->
+											<div class="fut-complete-mark position-absolute py-2 px-3 fw-bold rounded-pill"><i class="far fa-check-circle me-2"></i>Complete</div>
+										</div>
+										<div class="fut-card-v2-body pt-3 pe-4">
+											<h3 class="h4">Principle of product design: Usability testing skills</h3>
+											<p>In this course, you will learn about the principles of product design</p>
+											<div class="d-flex justify-content-between text-white">
+												<div>
+													<span class="d-block fw-lighter fs-6">Duration</span>
+													<span class="d-block">1 month</span>
+												</div>
+												<div>
+													<span class="d-block fw-lighter fs-6">Points</span>
+													<span class="d-block">240/240</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Completed Item 2 -->
+									<div class="fut-card-v2 me-sm-3 mb-3">
+										<div class="fut-card-v2-head position-relative rounded-3 p-4">
+											<p class="text-white">Start dates</p>
+											<div class="d-flex w-75">
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">05</span>
+												</div>
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">04</span>
+												</div>
+												<div class="rounded-3 px-2 me-3 text-center text-white border">
+													<span class="d-block">May</span>
+													<span class="d-block fw-bold fs-5">07</span>
+												</div>
+											</div>
+										</div>
+										<div class="fut-card-v2-body pt-3 pe-4">
+											<h3 class="h4">Principle of product design: Usability testing skills</h3>
+											<p>In this course, you will learn about the principles of product design</p>
+											<div class="d-flex justify-content-between text-white">
+												<div>
+													<span class="d-block fw-lighter fs-6">Duration</span>
+													<span class="d-block">1 month</span>
+												</div>
+												<div>
+													<span class="d-block fw-lighter fs-6">Points</span>
+													<span class="d-block">240/240</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<!-- Responsive Left Side Navigation -->
+		<div class="fut-mobile-nav">
+			<div class="mobile-nav-item">
+				<div class="close-mobile-nav pe-2 text-end">
+					<button class="close-nav">
+						<i class="fas fa-times"></i>
+					</button>
+				</div>
+				<div class="fut-logo-wrapper text-center mb-5 p-1 text-center">
+					<img src="images/logo1.svg" alt="Logo">
+					<img src="images/logo2.svg" alt="Logo">
+				</div>
+				<div class="fut-left-col-item pe-3">
+					<ul class="list-unstyled">
+						<li class="pe-0 pb-2">
+							<a href="#" class="d-flex align-items-center text-decoration-none py-2 ps-md-3 "><span class="icon d-flex justify-content-center align-items-center"><i class="fas fa-home"></i></span>Home</a>
+						</li>
+						<li class="pb-2">
+							<a href="#" class="active d-flex align-items-center text-decoration-none py-2 ps-md-3"><span class="icon d-flex justify-content-center align-items-center"><i class="far fa-file-alt"></i></span>Courses</a>
+						</li>
+						<li class="pb-2">
+							<a href="#" class="d-flex align-items-center text-decoration-none py-2 ps-md-3"><span class="icon d-flex justify-content-center align-items-center"><i class="far fa-user"></i></span>Mentors</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--jQuery CDN-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
